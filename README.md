@@ -81,3 +81,5 @@ The easiest step in visual studio to build is the typical `Ctrl+Shift+B` Build S
 * Back in Visual Studio, change the project to Release mode x64 Local Windows Debugger. If all is well, then the proeject should build and run and you will see a terminal showing connections to the virtual server and the blue/red "eyes" displaying in the virtual environment application.
 
 If you are in a non windows environment...you can explore the `mabu` commands to build and run. You can use the `mabu -t <targetArchitecture> <projectName> --invoke` command to run your project and display in the virtual application. 
+
+Feel free to msg me with question on getting this thing working. 
