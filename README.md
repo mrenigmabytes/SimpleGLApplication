@@ -5,7 +5,7 @@ Sample [MagicLeap](http://www.magicleap.com) C library Application using OpenGL 
 ---
 **Nov 15 2019**: Uploaded reworked version of MagicLeap `SimpleGlApp.mabu` project. 
 
-`The following is a summary of an old MagicLeap sample C library application that is no longer distributed. The instructions are not entirely my own and are a mix of [MagicLeap](http://www.magicleap.com) build instructions + my own findings with Visual Studio Enterprise on a Windows 10 System.`
+`The following is a summary of an old MagicLeap sample C library application that is no longer distributed. The instructions are not entirely my own and are a mix of MagicLeap build instructions + my own findings with Visual Studio Enterprise on a Windows 10 System.`
 
 ## Starting Out
 The first thing to know is that [MagicLeap](http://www.magicleap.com) is a company that develops (not so cheap) Augmented Reality headsets. However, it is quite great technology AND you dont need to own the glasses to begin experimenting with the hardware in a virtualized way.
