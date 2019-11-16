@@ -1,0 +1,6 @@
+
+LIBPATHS=C:/GL/GLFW/lib-vc2017
+SHLIBS.win=glfw3dll
+SHLIBS.osx=glfw.3
+SHLIBS.default=glfw
+INCS=C:\GL\GLFW\include

@@ -1,0 +1,13 @@
+INCS= \
+	C:\GL\GLAD_ROOT\include
+
+SRCS = \
+    C:\GL\GLAD_ROOT\src\glad.c \
+
+SRCS.win = \
+    C:\GL\GLAD_ROOT\src\glad_wgl.c
+
+SRCS.linux = \
+  C:\GL\GLAD_ROOT\src\glad_glx.c
+
+SHLIBS.linux=dl X11

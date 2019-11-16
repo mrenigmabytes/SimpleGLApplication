@@ -1,0 +1,14 @@
+KIND = program
+SRCS = src/SimpleGLApplication.cpp
+
+DEFS.win = \
+	ML_WINDOWS \
+	USE_GLFW=1 \
+
+INCS = inc/
+USES = ml_sdk
+USES.win = glad glfw
+
+OPTIONS = \
+	standard-c++/11 \
+	stl/libgnustl
