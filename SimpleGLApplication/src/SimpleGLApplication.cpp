@@ -276,12 +276,8 @@ int main() {
 		frame_params.near_clip = 1.0f;
 		frame_params.focus_distance = 1.0f;
 
-		MLHandle frame_handle;
-
 		MLGraphicsFrameInfo out_frame_info;
 		MLGraphicsFrameInfoInit(&out_frame_info);
-
-		MLGraphicsVirtualCameraInfoArray virtual_camera_array;
 
 		MLResult out_result = MLGraphicsBeginFrameEx(graphics_client, &frame_params, &out_frame_info);
 		if(out_result != MLResult_Ok){

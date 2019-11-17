@@ -84,8 +84,7 @@
     <MLSDK>C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0</MLSDK>
     <!--This is for internal use only. Will hold derived value.-->
     <MLMabuSigningOption>-s "C:\Users\ganzou\MagicLeap\cert\devcert.cert"</MLMabuSigningOption>
-    <MLCertificateFile>
-    </MLCertificateFile>
+    <MLCertificateFile>C:\Users\ganzou\MagicLeap\cert\devcert.cert</MLCertificateFile>
     <!--This should appear before <NMakeBuildCommandLine> -->
     <MLExtraBuildOption>
     </MLExtraBuildOption>
@@ -119,8 +118,7 @@
     <MLSDK>C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0</MLSDK>
     <!--This is for internal use only. Will hold derived value.-->
     <MLMabuSigningOption>-s "C:\Users\ganzou\MagicLeap\cert\devcert.cert"</MLMabuSigningOption>
-    <MLCertificateFile>
-    </MLCertificateFile>
+    <MLCertificateFile>C:\Users\ganzou\MagicLeap\cert\devcert.cert</MLCertificateFile>
     <MLExtraBuildOption>
     </MLExtraBuildOption>
     <MabuTargetFullSpec>release_lumin_clang-3.8_aarch64</MabuTargetFullSpec>
@@ -149,11 +147,11 @@
     </AutoStopAtFunction>
     <EnablePrettyPrinting>true</EnablePrettyPrinting>
     <MLDownloadOnStart>true</MLDownloadOnStart>
+    <MLDeviceSerialNumber>G8206M002019</MLDeviceSerialNumber>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <MLSDK>C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0</MLSDK>
-    <MLCertificateFile>
-    </MLCertificateFile>
+    <MLCertificateFile>C:\Users\ganzou\MagicLeap\cert\devcert.cert</MLCertificateFile>
     <MLExtraBuildOption>
     </MLExtraBuildOption>
     <MabuTargetFullSpec>debug_win_msvc-2017-15.9_x64</MabuTargetFullSpec>
@@ -171,15 +169,14 @@
     <!-- following are defaults for debugger options -->
     <Attach>false</Attach>
     <!-- Environment for running with Simulator (ML Remote).This may also be changed at runtime -->
-    <LocalDebuggerEnvironment>PATH=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCPackages;C:\Program Files (x86)\Microsoft SDKs\TypeScript\3.1;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\bin\Roslyn;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Team Tools\Performance Tools\x64;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\x64;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp;C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86;C:\Program Files (x86)\Windows Kits\10\bin\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\Tools;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\tools\mabu\tools\MinGW\bin;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\tools\mabu\tools\MinGW\msys\1.0\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\QuickTime\QTSystem;C:\Users\ganzou\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\VirtualDevice\lib;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\VirtualDevice\bin;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\lib\win64;C:\GL\GLFW\lib-vc2017</LocalDebuggerEnvironment>
+    <LocalDebuggerEnvironment>PATH=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCPackages;C:\Program Files (x86)\Microsoft SDKs\TypeScript\3.1;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\bin\Roslyn;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Team Tools\Performance Tools\x64;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\x64;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp;C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86;C:\Program Files (x86)\Windows Kits\10\bin\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\Tools;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\tools\mabu\tools\MinGW\bin;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\tools\mabu\tools\MinGW\msys\1.0\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\Git\cmd;C:\Users\ganzou\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\VirtualDevice\lib;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\VirtualDevice\bin;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\lib\win64;C:\GL\GLFW\lib-vc2017</LocalDebuggerEnvironment>
     <!-- set this for launching Lumin RT examples -->
     <LocalDebuggerWorkingDirectory>$(ProjectDir)\.out\SimpleGLApplication</LocalDebuggerWorkingDirectory>
     <MLDeviceSerialNumber />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <MLSDK>C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0</MLSDK>
-    <MLCertificateFile>
-    </MLCertificateFile>
+    <MLCertificateFile>C:\Users\ganzou\MagicLeap\cert\devcert.cert</MLCertificateFile>
     <MLExtraBuildOption>
     </MLExtraBuildOption>
     <MabuTargetFullSpec>release_win_msvc-2017-15.9_x64</MabuTargetFullSpec>
@@ -197,7 +194,7 @@
     <!-- following are defaults for debugger options -->
     <Attach>false</Attach>
     <!-- Environment for running with Simulator (ML Remote).This may also be changed at runtime -->
-    <LocalDebuggerEnvironment>PATH=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCPackages;C:\Program Files (x86)\Microsoft SDKs\TypeScript\3.1;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\bin\Roslyn;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Team Tools\Performance Tools\x64;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\x64;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp;C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86;C:\Program Files (x86)\Windows Kits\10\bin\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\Tools;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\tools\mabu\tools\MinGW\bin;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\tools\mabu\tools\MinGW\msys\1.0\bin;c:\program files (x86)\microsoft visual studio\2017\enterprise\common7\ide\commonextensions\microsoft\teamfoundation\team explorer\NativeBinaries\x86;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\Git\cmd;C:\Users\ganzou\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\VirtualDevice\lib;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\VirtualDevice\bin;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\lib\win64;C:\GL\GLFW\lib-vc2017</LocalDebuggerEnvironment>
+    <LocalDebuggerEnvironment>PATH=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCPackages;C:\Program Files (x86)\Microsoft SDKs\TypeScript\3.1;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\bin\Roslyn;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Team Tools\Performance Tools\x64;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\x64;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp;C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86;C:\Program Files (x86)\Windows Kits\10\bin\x86;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\Tools;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\tools\mabu\tools\MinGW\bin;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\tools\mabu\tools\MinGW\msys\1.0\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\Git\cmd;C:\Users\ganzou\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\VirtualDevice\lib;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\VirtualDevice\bin;C:\Users\ganzou\MagicLeap\mlsdk\v0.22.0\lib\win64;C:\GL\GLFW\lib-vc2017</LocalDebuggerEnvironment>
     <!-- set this for launching Lumin RT examples -->
     <LocalDebuggerWorkingDirectory>$(ProjectDir)\.out\SimpleGLApplication</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
@@ -223,7 +220,7 @@
   </ItemGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties MLProjectMabuSyncTime="132183672893380901 (11/16/2019 8:41:29 AM UTC)" />
+      <UserProperties MLProjectMabuSyncTime="132184384275168335 (11/17/2019 4:27:07 AM UTC)" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

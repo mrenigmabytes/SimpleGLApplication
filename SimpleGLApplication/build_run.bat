@@ -7,5 +7,5 @@ call build.bat "%*"
 PATH=%GLFW_LIBS%;%PATH%
 
 for /f %%S in ('mabu -q --print-spec') do set BUILD_SPEC=%%S
-.out\%BUILD_SPEC%\%SimpleGlAppliation
+.out\%BUILD_SPEC%\%SimpleGLAppliation
 

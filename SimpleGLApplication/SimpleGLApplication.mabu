@@ -1,5 +1,22 @@
+INCS = inc/
 KIND = program
-SRCS = src/SimpleGLApplication.cpp
+OPTIONS = \
+	exceptions/on \
+	standard-c++/11 \
+	stl/libgnustl \
+	warn/on
+
+SRCS = \
+	src/SimpleGLApplication.cpp
+
+USES = \
+	OpenGL \
+	ml_sdk \
+	stdc++
+
+DEFS.lumin = \
+	ML_DEVICE \
+	USE_GLFW=0 \
 
 DEFS.win = \
 	ML_WINDOWS \
@@ -13,10 +30,9 @@ DEFS.linux = \
 	ML_LINUX \
 	USE_GLFW=1 \
 
-INCS = inc/
-USES = ml_sdk
-USES.win,osx,linux = glad glfw
+USES.win,osx,linux = \
+	glad \
+	glfw
 
-OPTIONS = \
-	standard-c++/11 \
-	stl/libgnustl
+
+

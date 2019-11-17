@@ -1,0 +1,26 @@
+KIND = program
+SRCS = src/SimpleGLApplication.cpp
+
+DEFS.win = \
+	ML_WINDOWS \
+	USE_GLFW=1 \
+
+DEFS.osx = \
+	ML_OSX \
+	USE_GLFW=1 \
+	
+DEFS.linux = \
+	ML_LINUX \
+	USE_GLFW=1 \
+
+INCS = inc/
+USES = ml_sdk OpenGL stdc++
+USES.win,osx,linux = glad glfw
+
+OPTIONS = \
+	standard-c++/11 \
+	exceptions/on \
+	warn/on \
+	stl/libgnustl
+
+SHLIBS.linux = pthread
